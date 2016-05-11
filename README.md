@@ -1,11 +1,11 @@
-rning CMake
+#Learning CMake
 ###General steps (for Mac OS X only):
 ####1. Download and Install
   * download CMake from the CMake [download page](https://cmake.org/download/) in this case, the *.dmg* file.
   * launch Installor by double-clicking on the *.dmg* file, drag and drop CMake onto the Applications folder
   * Once installed, launch CMake (e.g. from Spotlight)
-  * :heavy_exclamation_mark:**Add CMake to path** :heavy_exclamation_mark:: From the "Tools" menu select "How to Install For Command Line Use". From the popup dialog box, note the cmake-gui path, which in my case is `/Applications/CMake.app/Contents/bin/cmake-gui`
-    :heavy_exclamation_mark:**Open Terminal and type::heavy_exclamation_mark:
+  * :heavy_exclamation_mark:**Add CMake to path**: From the "Tools" menu select "How to Install For Command Line Use". From the popup dialog box, note the cmake-gui path, which in my case is `/Applications/CMake.app/Contents/bin/cmake-gui`
+    :heavy_exclamation_mark:**Open Terminal and type:
     ```
       sudo mkdir -p /usr/local/bin
       sudo "/Applications/CMake.app/Contents/bin/cmake-gui" --install
@@ -14,6 +14,7 @@ rning CMake
     ```
       cmake --version
     ```
+
 ####2. Build Up Your First C++ Project (using Terminal command line mainly)
   * Open `Terminal`, switch into your `Desktop` directory by typing the following:
   `cd ~/Desktop` and then press `Enter`; (instead of `Desktop` you can chose anywhere else, as long as you can easily access your project files later on.)
