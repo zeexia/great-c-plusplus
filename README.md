@@ -3,8 +3,8 @@
 ####1. Download and Install CMake
   * download CMake from the CMake [download page](https://cmake.org/download/). In this particular example, would be the *"cmake-3.5.2-Darwin-x86_64.dmg"* file for Mac.
 
-  * launch the installer by double-clicking on the *.dmg* file, then drag&drop CMake onto the Applications folder to quickly install it.
-  * Once installed, launch CMake ( for example, from Spotlight, etc )
+  * launch the installer by double-clicking on the *.dmg* file, then drag&drop the CMake logo onto the Applications folder image to install it ( quick'n easy! ).
+  * Once installed, launch CMake ( for example, from Spotlight, etc ).
 
   * :heavy_exclamation_mark:**Add CMake to path**: From the **"Tools"** menu select **"How to Install For Command Line Use"**. From the popup dialog box, note the cmake-gui path—which in our case: `/Applications/CMake.app/Contents/bin/cmake-gui`
 
@@ -17,12 +17,12 @@
     ```
     cmake --version
     ```
-    If it's correct, it will show you the CMake version 3.5.2 (in our case)
+    If it's correct, it will show you the CMake version 3.5.2 ( in our case )
 
 ####2. Build Up Your First C++ Project ( we'll do this in Terminal—no worries… )
   * In your Terminal, switch your path to "Desktop" by entering the following:
   `cd ~/Desktop`. ( instead of "Desktop" you can of course chose anywhere else to follow alone, as long as you can easily find and access all of your files once they've been created. )
-  * The following one-liner command will creat an empty directory, give it a name: "myTest" (or anything you like), and switch into it. Type:
+  * The following one-liner command will creat an empty directory, give it a name: "myTest" ( or anything you like ), and switch into it. Type:
 
   ```
   mkdir myTest && cd $_
